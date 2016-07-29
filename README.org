@@ -1,0 +1,6 @@
+* Puppet beaker using vagrant-libvirt in a container.
+
+  This image has the necessary packages to bootstrap a puppet beaker
+  rspec acceptance test using the libvirt provider.  It's also include
+  a zuul client to interact with gerrit.
+

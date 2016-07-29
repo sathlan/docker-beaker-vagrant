@@ -1,0 +1,8 @@
+version: '2'
+services:
+  f23-systemd:
+    build: .
+    image: sathlan/beaker-vagrant:latest
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    tty: true
